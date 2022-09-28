@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:hive_play_ground/views/todos_view.dart';
+import 'package:hive_play_ground/views/todos%20view/todos_view.dart';
 
 void main() async {
   await Hive.initFlutter();
@@ -12,7 +13,7 @@ class TodoApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
       home: const TodosView(),

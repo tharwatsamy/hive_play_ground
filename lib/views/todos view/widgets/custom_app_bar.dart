@@ -1,7 +1,6 @@
-
-
 import 'package:flutter/material.dart';
-import 'package:hive_play_ground/views/widgets/search_icon.dart';
+import 'package:hive_play_ground/views/todos%20view/widgets/search_icon.dart';
+
 class CustomAppBar extends StatelessWidget {
   const CustomAppBar({Key? key}) : super(key: key);
 
